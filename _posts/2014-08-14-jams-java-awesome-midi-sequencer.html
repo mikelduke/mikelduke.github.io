@@ -1,0 +1,43 @@
+---
+layout: post
+status: publish
+published: true
+title: JAMS - Java Awesome Midi Sequencer
+author: mikel
+author_login: mikel
+author_email: mikelduke@gmail.com
+author_url: https://mikelduke.com
+wordpress_id: 437
+wordpress_url: https://mikelduke.com/?p=437
+date: '2014-08-14 23:38:55 +0000'
+date_gmt: '2014-08-15 04:38:55 +0000'
+categories:
+- Blog
+- Projects
+tags:
+- video
+- linux
+- demo
+- music
+- electronics
+- midi
+- baxboard
+- programming
+- raspberry pi
+- sequencer
+- java
+- jams
+- youtube
+- instrument
+comments: []
+---
+{% include youtubeEmbed.html id="ZGNqPMBFaSY" %}
+<p>&nbsp;</p>
+<p>This is a demo video of a new Java App I have been working on, I call it JAMS or Java Awesome Midi Sequencer. It is a hardware centric Midi Sequencer written in Java and intended for a Raspberry Pi. However, being written in Java means it can run in a lot of places and be easily developed on my main pc.</p>
+<p>This video demonstrates some early features like separate controllers and instruments, and simple stepping and looping mechanisms.</p>
+<p>All of the Sequencer controls can be mapped to a midi device and channel which can be used as the sequencer controller, while others can used as inputs and outputs. They can be the same device as in the video, or output to a different synthesizer. The built in Java synthesizer is even available, but it is not my first choice.</p>
+<p>If a device has configurable channels, like the baxboard, it could be used for both control and as an instrument by changing the channel.</p>
+<p>Currently, JAMS is intended to be run headless, without a monitor. It can be setup using only keyboard commands and will load preconfigured settings on startup, and will even connect to the preconfigured devices and start the sequencer loop.</p>
+<p>Recording mode can be toggled on and off so that you can create your own loops to play over.</p>
+<p>I intend to make at least a simple GUI targetted for low res touch screens as they are common addons for Raspberry Pis, maybe even a regular gui in the future. I hope this will be a much cooler way to play electronic music live instead of just watching some dude play on his imac.</p>
+<p>The code will be available on Github soon.</p>

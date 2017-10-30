@@ -1,0 +1,68 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body {
+  background-color: #333333;
+}
+
+.site-header {
+  border-top: 0px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: $spacing-unit * 1.865;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+  
+  background-color: #444;
+}
+
+h1 {
+  border-radius: 10px;
+}
+
+article {
+  padding: 15px;
+  margin-bottom: $spacing-unit;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid $grey-color-light;
+  border-radius: 10px;
+}
+
+.site-nav-bar {
+  padding: 1px;
+  margin-bottom: 0px;
+  display: flow-root;
+  background-color: #444;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.site-nav {
+  line-height: 30px;
+}
+
+.site-nav .page-link {
+  color: #999
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+    border-radius: 10px;
+  }
+}
+
+.post {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.site-footer {
+  background-color: #444;
+}

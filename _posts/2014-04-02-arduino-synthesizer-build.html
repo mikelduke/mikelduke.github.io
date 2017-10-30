@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: Arduino Synthesizer
+author: mikel
+author_login: mikel
+author_email: mikelduke@gmail.com
+author_url: https://mikelduke.com
+wordpress_id: 389
+wordpress_url: https://mikelduke.com/?p=389
+date: '2014-04-02 20:52:58 +0000'
+date_gmt: '2014-04-03 01:52:58 +0000'
+categories:
+- Blog
+- Projects
+tags:
+- music
+- electronics
+- arduino
+- arduino nano
+- audio
+- synthesizer
+comments: []
+---
+{% include youtubeEmbed.html id="4osB-46Xk7M" %}
+<p><span style="line-height: 1.5em;">The first video is a test of the Arduino Nano based Synthesizer I built. It takes MIDI input and generates an audio signal that can go to an amp.</span></p>
+<p>I used the schematic referenced <a href="https://www.instructables.com/id/Send-and-Receive-MIDI-with-Arduino/step10/Receive-MIDI-Messages-with-Arduino/">here </a>to build the Midi input circuit.</p>
+<p>The audio out uses just a couple capacitors and a resistor and is detailed in this <a href="https://www.instructables.com/id/Turn-your-Arduino-into-a-4-voice-wavetable-synth-w/">Instructable link</a>, and also in the comments of the library.</p>
+<p>The Arduino Nano is running the example Midi sketch that is part of <a href="https://github.com/dzlonline/the_synth">the_synth library on github</a>.</p>
+<p><a href="https://dzlsevilgeniuslair.blogspot.dk/search/label/Arduino%20Synth">dzonline the_synth creator</a></p>
+{% include youtubeEmbed.html id="_acsKuzJ1nc" %}
+<p>The second video is a test of my synthesizer using a better midi example. This time I picked a midi file of some scales, and included the PC's output at the end using the TuxGuitar synthesizer Gervill.</p>
+<p>I know there are some more parameters that can be set on the Arduino Synth, but I haven't messed with any yet. They might help clean up the sound some, but it sounds pretty neat as is.</p>
