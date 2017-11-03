@@ -12,7 +12,7 @@ Converting from Wordpress to Jekyll was pretty easy. My wordpress was self hoste
 info I needed to export my old site.
 
 # Export
-I initially followed the [Jekyll guide](http://import.jekyllrb.com/docs/wordpress/) where you run the 
+I followed the [Jekyll guide](http://import.jekyllrb.com/docs/wordpress/) where you run the 
 ruby jekyll-importer with your database info. You might need to update ruby and install the 
 jekyll-import gem and some other dependencies, and may need sudo for some environments.
 ```
@@ -43,16 +43,15 @@ ruby -rubygems -e 'require "jekyll-import";
       "status"         => ["publish"]
     })'
 ```
-I couldn't get this to run from the Dreamhost shell, but I had a Raspberry Pi I could run it on instead. 
+I couldn't get this to run from the Dreamhost shell, but I had a Raspberry Pi I could run it on instead, since
 I didn't want to have to run through the [Windows Jekyll install](https://jekyllrb.com/docs/windows/) process. 
-Now I use a Docker container to build instead on my Windows machine instead.
+Now I use a Docker container to build on my Windows machine instead. No install needed.
 
-After exporting, I was able to build the site using all the default settings. You should have a folder called _posts
+After exporting, I was able to build the site using all the default settings and had a folder called _posts
 
-The wordpress posts
-all exported as html files containing the html from each post. Some of this might need additional jekyll 
-plugins or include files to display properly, or some manual tweeking. In my case, a lot of the html links 
-didn't format correctly, and the youtube embeds didn't display.
+The wordpress posts all exported as html files containing the html from each post. Some of these might 
+need additional jekyll plugins or include files to display properly, or some manual tweeking. In my case, 
+a lot of the html links didn't format correctly, and the youtube embeds didn't display.
 ```
 cd export-folder
 jekyll new .
@@ -64,7 +63,7 @@ and customizing the site.
 # Customize
 The first thing I did was to configure some of the settings in _config.yaml like title, email, and baseurl. I also
 deleted a lot of the stub pages that were exported from Wordpress. Those were just there to hold the links on my
-title bar.
+title bar, but jekyll made them into empty pages.
 
 After that, look for a theme or customize one. I didn't see any premade ones I really liked so I just made some 
 tweaks to the default minima theme. To modify the current theme, you copy the files you want to override from 
@@ -109,3 +108,9 @@ docker run -it --volume /git/jekyll-temp:/srv/jekyll -p 4000:4000 --expose 4000 
 ```
 If using VirtualBox, remember to enable port forwarding for port 4000
 ![VirtualBox Port-Forward]({{ "/assets/images/virtual-box-port-forwarding.png" | absolute_url }})
+
+## Github pages
+If you dont want to have to build anything, you can just push the git repo to git hub with a name like username.github.io
+and they will autodetect and build the site out for you at https://username.github.io
+
+It is nice to build locally first to preview the changes. Having a build setup also lets you deploy the site to any other webhost too.
