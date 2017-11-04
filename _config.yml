@@ -16,7 +16,7 @@
 title: mikelduke.com
 email: mikelduke@mikelduke.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This my sweet website
+  Personal blog with info on my projects and photos
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
