@@ -34,6 +34,16 @@ plugins:
 paginate: 5
 paginate_path: "/page:num/"
 
+social:
+  name: Mikel Duke
+  links:
+    https://www.facebook.com/mikelduke
+    https://github.com/mikelduke
+    https://youtube.com/mikelduke
+    https://www.linkedin.com/in/mikelduke/
+    https://www.instagram.com/mikelduke/
+    
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
