@@ -38,8 +38,8 @@ I sanded them using my random orbit sander and then spray painted them all in a 
 from pvc with a plastic drop cloth taped over it. Nothing special, but it worked.
 
 {% include image.html 
-  url="http://img.mikelduke.com/images/picture-frames/20171113_145807.jpg"
-  img="http://img.mikelduke.com/images/picture-frames/20171113_145807-sm.jpg"
+  url="https://img.mikelduke.com/images/picture-frames/20171113_145807.jpg"
+  img="https://img.mikelduke.com/images/picture-frames/20171113_145807-sm.jpg"
   caption="Paint Box"
   title="Paint Box" %}
 
@@ -47,8 +47,8 @@ I used grey primer and then metallic gold spray paints. The shinyness of the gol
 Unfortunately, it also showed off all the defects and rough patches.
 
 {% include image.html 
-  url="http://img.mikelduke.com/images/picture-frames/20171113_152120.jpg"
-  img="http://img.mikelduke.com/images/picture-frames/20171113_152120-sm.jpg"
+  url="https://img.mikelduke.com/images/picture-frames/20171113_152120.jpg"
+  img="https://img.mikelduke.com/images/picture-frames/20171113_152120-sm.jpg"
   caption="In The Paint Box"
   title="In The Paint Box" %}
 
