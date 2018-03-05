@@ -9,10 +9,6 @@ categories:
 tags:
   - woodworking
   - projects
-images:
-  - image_path: https://img.mikelduke.com/images/wood-slices/20171111_142224.jpg
-    thumb: https://img.mikelduke.com/images/wood-slices/20171111_142224-sm.jpg
-    title: Gold Filler
 ---
 Last weekend I built a woodworking mallet out of oak. 
 
